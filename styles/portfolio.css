@@ -2,7 +2,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-
+.text-primary{
+    color: orangered;
+}
 
 /*nav related styles*/
 nav{
