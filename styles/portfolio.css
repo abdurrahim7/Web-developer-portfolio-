@@ -12,11 +12,15 @@ body{
     font-size: 15px;
     font-weight: 700px;
     color: white;
+    padding: 10px;
 
 }
 /*nav related styles*/
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -26,6 +30,7 @@ nav{
 }
 nav >ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -35,4 +40,12 @@ nav a{
     text-decoration: none;
     color: gray;
 
+}
+/*nav related header styles*/
+.header{
+    background-color: #fff8f3;
+
+}
+.bannar{
+    padding: 30px 30px 30px 150px;
 }
